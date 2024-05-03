@@ -1,7 +1,12 @@
 package f
 
-import e "github.com/nobishino/gomodules-e"
+import (
+	"fmt"
+
+	e "github.com/nobishino/gomodules-e"
+)
 
 func F() {
+	fmt.Println("This is gomodules-f.")
 	e.E()
 }
