@@ -11,4 +11,6 @@ func F() {
 	e.E()
 }
 
-func F2() {}
+func F2() {
+	panic("HI")
+}
